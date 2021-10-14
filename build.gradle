@@ -1,0 +1,115 @@
+buildscript {
+    repositories {
+        maven { url = 'https://files.minecraftforge.net/maven' }
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
+    }
+}
+        
+apply plugin: 'net.minecraftforge.gradle'
+// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+
+version = '1.0'
+group = "codersafterdark.reskillable" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'Reskillable-Talented'
+
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+
+minecraft {
+    mappings channel: 'stable', version: '39-1.12'
+    // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
+    
+    accessTransformer = file('src/main/resources/META-INF/reskillable_at.cfg')
+
+    // Default run configurations.
+    // These can be tweaked, removed, or duplicated as needed.
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+        }
+
+        server {
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+        }
+    }
+}
+
+repositories {
+    maven {
+        url "https://www.cursemaven.com"
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2855'
+
+    apiElements fg.deobf("curse.maven:baubles-227083:2518667")
+    compileOnly fg.deobf("curse.maven:jei-238222:3040523")
+    compileOnly fg.deobf("curse.maven:serene-seasons-291874:2799213")
+    //compile fg.deobf("curse.maven:tipthescales-282313:2689835")
+    compileOnly fg.deobf("curse.maven:dynamic-stealth-309344:3127982")
+    compileOnly fg.deobf("curse.maven:fantastic-lib-315773:3138902")
+    compile fg.deobf("curse.maven:electroblobs-wizardry-265642:2929294")
+    compile fg.deobf("curse.maven:potion-core-242872:2905184")
+    compile fg.deobf("curse.maven:spartan-weaponry-278141:2830166")
+    compile fg.deobf("curse.maven:spartan-shields-252239:2712229")
+    compile fg.deobf("curse.maven:extra-alchemy-247357:2937550")
+    compile fg.deobf("curse.maven:minerva-library-311561:2728693")
+    compile fg.deobf("curse.maven:scaling-feast-370995:3213262")
+    
+    compileOnly files('lib/DynamicSwordSkills-1.12.2-6.2.1.jar')
+    compileOnly files('lib/SwordSkillsApi-1.12.2-1.5.1.jar')
+    compileOnly files ('lib/CompatSkills-1.12.2-1.17.0.jar')
+}
+
+// Example for how to get properties into the manifest for reading by the runtime..
+jar {
+    manifest {
+        attributes([
+            "Specification-Title": "reskillable",
+            "Specification-Vendor": "codersafterdark",
+            "Specification-Version": "1", // We are version 1 of ourselves
+            "Implementation-Title": project.name,
+            "Implementation-Version": "${version}",
+            "Implementation-Vendor" :"codersafterdark",
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+// Example configuration to allow publishing using the maven-publish task
+// This is the preferred method to reobfuscate your jar file
+jar.finalizedBy('reobfJar') 
+// However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
+//publish.dependsOn('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file:///${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+sourceSets {main { output.resourcesDir = output.classesDir }}
