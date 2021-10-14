@@ -1,0 +1,4 @@
+{
+  "respec": { "category": "player", "sounds": ["reskillable:use_scroll_respec"], "subtitle": "reskillable.scroll.use" },
+  "talent.blink": {"category": "talents", "sounds": ["mob/endermen/portal", "mob/endermen/portal2"]}
+}
