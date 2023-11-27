@@ -298,9 +298,9 @@ Advanced:
 - Inferno Affinity = Receive a Fire Resistance II(40% Immunity) potion effect. Have access to Advanced/Master Tier Fire Spells/Scrolls. You are allowed to wear Fire Warlock/Sage Gear. Requires [Fire Affinity]. Unable to get [Ice Affinity].
 
 Novice:
-- Steel Affinity = Receive an Iron Skin II & Geomancy potion effect. You are allowed to wear/use Steelforged Armor/Weapon Sets. You are allowed to wear Earth Warlock/Sage Gear. Requires [Earth Affinity]. Unable to get [Thunder Affinity].
-- Thunder Affinity = Receive an Ascending(Launches you upwards while above the fire) & Slowfall I potion effect. You are allowed to wear Lightning Warlock/Sage Gear. Requires [Air Affinity]. Unable to get [Steel Affinity].
-- Esoteric Affinity = Receive Achemic Shielding II potion effect. Have access to Advanced/Master Tier Sorcery Spells/Scrolls. Requires [Arcane Affinity].
+- Steel Affinity = Receive a Geomancy potion effect. You are allowed to wear/use Steelforged Armor/Weapon Sets. You are allowed to wear Earth Warlock/Sage Gear. Requires [Earth Affinity]. Unable to get [Thunder Affinity].
+- Thunder Affinity = Receive a Slowfall I potion effect. You are allowed to wear Lightning Warlock/Sage Gear. Requires [Air Affinity]. Unable to get [Steel Affinity].
+- Esoteric Affinity = Receive Alchemic Shielding II potion effect. Have access to Advanced/Master Tier Sorcery Spells/Scrolls. Requires [Arcane Affinity].
 
 - Novice Wizard Training = Allows usage of Low-Tier Wands(EBWizardry & AstralSorcery)/Quarterstaves. Increases magic damage by another 5%. (Total: 5%)
 - Advanced Wizard Training = Allows usage of Mid-Tier Wands(EBWizardry & AstralSorcery)/Quarterstaves. Increases magic damage by another 10%. (Total: 15%)
