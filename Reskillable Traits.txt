@@ -290,17 +290,17 @@ Novice:
 
 [Wizard]
 Master:
-- Sunlight Affinity = Receive an Absorption II potion effect in daylight hours. Increases projectile damage by 50%. Decreases melee damage by 25%. Have access to Advanced/Master Tier Healing Spells/Scrolls. You are allowed to wear Healing Warlock/Sage Gear. Requires [Light Affinity]. Unable to get [Dark Moon Affinity].
-- Dark Moon Affinity = Receive an Absorption II  potion effect in nighttime hours. Increases melee damage by 50%. Decreases projectile damage by 25%. Have access to Advanced/Master Tier Necromancy Spells/Scrolls. You are allowed to wear Necromancy Warlock/Sage Gear. Requires [Dark Affinity]. Unable to get [Sunlight Affinity].
+- Sunlight Affinity = Receive an Absorption II potion effect in daylight hours. Have access to Advanced/Master Tier Healing Spells/Scrolls. You are allowed to wear Healing Warlock/Sage Gear. Requires [Light Affinity]. Unable to get [Dark Moon Affinity].
+- Dark Moon Affinity = Receive an Absorption II potion effect in nighttime hours. Have access to Advanced/Master Tier Necromancy Spells/Scrolls. You are allowed to wear Necromancy Warlock/Sage Gear. Requires [Dark Affinity]. Unable to get [Sunlight Affinity].
 
 Advanced:
-- Ice Affinity = Receive a Water Breathing potion effect. Inceases jump distance by 0.5 block. Have access to Advanced/Master Tier Ice Spells/Scrolls. You are allowed to wear Water Warlock/Sage Gear.  Requires [Water Affinity]. Unable to get [Inferno Affinity].
-- Inferno Affinity = Receive a Fire Resistance I(20% Immunity) potion effect. Increases attack speed by 10%. Have access to Advanced/Master Tier Fire Spells/Scrolls. You are allowed to wear Fire Warlock/Sage Gear. Requires [Fire Affinity]. Unable to get [Ice Affinity].
+- Ice Affinity = Receive a Water Breathing potion effect. Have access to Advanced/Master Tier Ice Spells/Scrolls. You are allowed to wear Water Warlock/Sage Gear.  Requires [Water Affinity]. Unable to get [Inferno Affinity].
+- Inferno Affinity = Receive a Fire Resistance II(40% Immunity) potion effect. Have access to Advanced/Master Tier Fire Spells/Scrolls. You are allowed to wear Fire Warlock/Sage Gear. Requires [Fire Affinity]. Unable to get [Ice Affinity].
 
 Novice:
-- Steel Affinity = Receive an Iron Skin II & Geomancy potion effect. Increases damage resistance by 5%. You are allowed to wear/use Steelforged Armor/Weapon Sets. You are allowed to wear Earth Warlock/Sage Gear. Requires [Earth Affinity]. Unable to get [Thunder Affinity].
-- Thunder Affinity = Receive an Ascending(Launches you upwards while above the fire) & Slowfall I potion effect. Increases movement speed by 5%. You are allowed to wear Lightning Warlock/Sage Gear. Requires [Air Affinity]. Unable to get [Steel Affinity].
-- Esoteric Affinity = Receive Achemic Shielding II potion effect. Increases Healing/Harming potion effectiveness by 30%. Have access to Advanced/Master Tier Sorcery Spells/Scrolls. Requires [Arcane Affinity].
+- Steel Affinity = Receive an Iron Skin II & Geomancy potion effect. You are allowed to wear/use Steelforged Armor/Weapon Sets. You are allowed to wear Earth Warlock/Sage Gear. Requires [Earth Affinity]. Unable to get [Thunder Affinity].
+- Thunder Affinity = Receive an Ascending(Launches you upwards while above the fire) & Slowfall I potion effect. You are allowed to wear Lightning Warlock/Sage Gear. Requires [Air Affinity]. Unable to get [Steel Affinity].
+- Esoteric Affinity = Receive Achemic Shielding II potion effect. Have access to Advanced/Master Tier Sorcery Spells/Scrolls. Requires [Arcane Affinity].
 
 - Novice Wizard Training = Allows usage of Low-Tier Wands(EBWizardry & AstralSorcery)/Quarterstaves. Increases magic damage by another 5%. (Total: 5%)
 - Advanced Wizard Training = Allows usage of Mid-Tier Wands(EBWizardry & AstralSorcery)/Quarterstaves. Increases magic damage by another 10%. (Total: 15%)
