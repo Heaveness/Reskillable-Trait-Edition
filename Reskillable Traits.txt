@@ -138,13 +138,13 @@ Finesse:
 Wisdom:
 - Safe Port(Remastered) = Teleporting with an Ender Pearl will no longer hurt you. Holding an Ender pearl in your off-hand grants Empowerment I Potion Effect. Empowerment II Potion Effect if using Eye of Ender instead.
 - Golden Osmosis(Remastered) = Golden Tools, while being held or worn, will extract XP from the user to repair themselves at a fast rate. Wearing Golden Armor Set, will now provide Ward I Potion Effect.
-- Water Affinity = Increases jump height by 0.5 blocks. Have access to Novice/Apprentice Tier Ice Spells. You are allowed to wear Ice Wizard Gear.
-- Fire Affinity = Increases attack speed by 10%. Have access to Novice/Apprentice Tier Fire Spells. You are allowed to wear Fire Wizard Gear.
-- Electric Affinity = Increases movement speed by 5%. Have access to Novice/Apprentice Tier Lightning Spells. You are allowed to wear Lightning Wizard Gear.
-- Earth Affinity = Increases damage resistance by 5%. Have access to Novice/Apprentice Tier Earth Spells. You are allowed to wear Earth Wizard Gear.
-- Light Affinity = Increases projectile damage by 20%. Lowers melee damage by 10%. Have access to Novice/Apprentice Tier Healing Spells. You are allowed to wear Healing Wizard Gear.
-- Dark Affinity = Increases melee damage by 20%. Lowers projectile damage by 10%. Have access to Novice/Apprentice Tier Necromancy Spells. You are allowed to wear Necromancy Wizard Gear.
-- Arcane Affinity = Increases Healing/Harming potion effectiveness by 15%. Have access to Novice/Apprentice Tier Sorcery Spells. You are allowed to wear Sorcery Wizard Gear.
+- Water Affinity = Increases jump height by 0.5 blocks. Have access to Novice/Apprentice Tier Ice Spells. You are allowed to wear Ice Wizard/Battlemage Gear.
+- Fire Affinity = Increases attack speed by 10%. Have access to Novice/Apprentice Tier Fire Spells. You are allowed to wear Fire Wizard/Battlemage Gear.
+- Electric Affinity = Increases movement speed by 5%. Have access to Novice/Apprentice Tier Lightning Spells. You are allowed to wear Lightning Wizard/Battlemage Gear.
+- Earth Affinity = Increases damage resistance by 5%. Have access to Novice/Apprentice Tier Earth Spells. You are allowed to wear Earth Wizard/Battlemage Gear.
+- Light Affinity = Increases projectile damage by 20%. Lowers melee damage by 10%. Have access to Novice/Apprentice Tier Healing Spells. You are allowed to wear Healing Wizard/Battlemage Gear.
+- Dark Affinity = Increases melee damage by 20%. Lowers projectile damage by 10%. Have access to Novice/Apprentice Tier Necromancy Spells. You are allowed to wear Necromancy Wizard/Battlemage Gear.
+- Arcane Affinity = Increases Healing/Harming potion effectiveness by 15%. Have access to Novice/Apprentice Tier Sorcery Spells. You are allowed to wear Sorcery Wizard/Battlemage Gear.
 
 Vitality:
 - Shield Sibling = Have access to low-tier shields. While holding onto a shield, increases knockback resistance by 25%.
@@ -307,7 +307,7 @@ Novice:
 
 [Alchemist]
 Master:
-- Quick Drinker = Significantly increase the drinking/eating speed of all consumables. Increase knockback resistance by 50% while under any Health Regen potion effects(Regeneration, Bandaged, & Wellfed).
+- Quick Drinker = Significantly increases the drinking/eating speed of all consumables. Increase knockback resistance by 50% while under any Health Regen potion effects(Regeneration, Bandaged, & Wellfed).
 - True Extension = Every 15 seconds, you receive the Extension II Potion Effect for 5 seconds which prevents one other potion on you from ticking down. Essentially doubles the length of another potion on you.
 - Esoteric Affinity = Receive Alchemic Shielding II potion effect. You are allowed to wear Sorcery Warlock/Sage Gear. Have access to Advanced/Master Tier Sorcery Spells/Scrolls. Requires [Arcane Affinity].
 
