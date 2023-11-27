@@ -300,7 +300,6 @@ Advanced:
 Novice:
 - Steel Affinity = Receive a Geomancy potion effect. You are allowed to wear/use Steelforged Armor/Weapon Sets. You are allowed to wear Earth Warlock/Sage Gear. Requires [Earth Affinity]. Unable to get [Thunder Affinity].
 - Thunder Affinity = Receive a Slowfall I potion effect. You are allowed to wear Lightning Warlock/Sage Gear. Requires [Air Affinity]. Unable to get [Steel Affinity].
-- Esoteric Affinity = Receive Alchemic Shielding II potion effect. Have access to Advanced/Master Tier Sorcery Spells/Scrolls. Requires [Arcane Affinity].
 
 - Novice Wizard Training = Allows usage of Low-Tier Wands(EBWizardry & AstralSorcery)/Quarterstaves. Increases magic damage by another 5%. (Total: 5%)
 - Advanced Wizard Training = Allows usage of Mid-Tier Wands(EBWizardry & AstralSorcery)/Quarterstaves. Increases magic damage by another 10%. (Total: 15%)
@@ -310,6 +309,7 @@ Novice:
 Master:
 - Quick Drinker = Significantly increase the drinking/eating speed of all consumables. Increase knockback resistance by 50% while under any Health Regen potion effects(Regeneration, Bandaged, & Wellfed).
 - True Extension = Every 15 seconds, you receive the Extension II Potion Effect for 5 seconds which prevents one other potion on you from ticking down. Essentially doubles the length of another potion on you.
+- Esoteric Affinity = Receive Alchemic Shielding II potion effect. You are allowed to wear Sorcery Warlock/Sage Gear. Have access to Advanced/Master Tier Sorcery Spells/Scrolls. Requires [Arcane Affinity].
 
 Advanced:
 - Indecisive Drinker = Every 30 seconds, you will receive a random positive potion effect for 15 seconds. (Potions: Haste, Resistance, Reach, Jump Boost, Recoil, Iron Skin, Invisibility, Empowerment, Ward, Alchemic Shielding, Archery, Luck, and Speed).
